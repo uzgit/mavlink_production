@@ -1542,7 +1542,7 @@
             <field name="rpm2" type="float">RPM Sensor2</field>
         </message>
 
-        <message id="227" name="external_data">
+        <message id="239" name="external_data">
             <description>External data from i2c.</description>
             <field name="test_variable" type="float">Just a text variable.</field>
         </message>
