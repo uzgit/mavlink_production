@@ -1549,7 +1549,7 @@
             <field name="air_temperature" type="float">Air temperature in celsius.</field>
             <field name="water_temperature" type="float">Water temperature in celsius.</field>
             <field name="humidity" type="float">Percentage of humidity in air.</field>
-            <field name="battery_status" type="uint8_t">Which battery is used. (1 or 2)</field>
+            <field name="battery_status" type="uint32_t">Which battery is used. (1 or 2)</field>
         </message>
 
     </messages>
