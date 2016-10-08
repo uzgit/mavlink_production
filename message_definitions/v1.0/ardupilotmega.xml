@@ -1544,7 +1544,12 @@
 
         <message id="227" name="EXTERNAL_DATA">
             <description>External data from i2c.</description>
-            <field name="test_variable" type="float">Just a test variable.</field>
+            <field name="voltage" type="float">Voltage of currently used battery in volts.</field>
+            <field name="current" type="float">Current leaving currently used battery in amps.</field>
+            <field name="air_temperature" type="float">Air temperature in celsius.</field>
+            <field name="water_temperature" type="float">Water temperature in celsius.</field>
+            <field name="humidity" type="float">Percentage of humidity in air.</field>
+            <field name="battery_status" type="uint8_t">Which battery is used. (1 or 2)</field>
         </message>
 
     </messages>
